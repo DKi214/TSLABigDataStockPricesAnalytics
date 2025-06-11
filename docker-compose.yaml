@@ -30,8 +30,8 @@ services:
       - bigdata-network
   frontend:
     build:
-      context: ./frontend
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: frontend/Dockerfile
     restart: always
     container_name: bigdata-frontend
     depends_on:

@@ -2,9 +2,9 @@ HELP.md
 target/
 mvnw
 mvnw.cmd
-.idea
 .mvn
 .mvn/wrapper/maven-wrapper.jar
+application-local.properties
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -23,14 +23,3 @@ mvnw.cmd
 *.iml
 *.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
