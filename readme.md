@@ -2,6 +2,24 @@
 
 Full-stack aplikacja internetowa do analizy historycznych cen akcji Tesli z wykorzystaniem Java (Spring Boot), React.js, Dockera i Plotly.
 
+## Założenia projektu
+
+Celem projektu jest zbudowanie pełnej aplikacji webowej umożliwiającej analizę historycznych danych giełdowych spółki Tesla (TSLA)
+
+Dane historyczne (np. Open, High, Low, Close, Volume) są pobierane z pliku CSV lub publicznego API
+
+Projekt umożliwia wizualną analizę danych w celu:
+
+- Wykrycia trendów i sezonowości
+- Analizy zmienności oraz korelacji między zmiennymi
+- Testowania prostych strategii inwestycyjnych (np. kupno gdy cena > SMA)
+
+Rozwiązanie ma charakter edukacyjny i analityczny – nie służy do rzeczywistego handlu
+
+Zakłada się, że dane wejściowe są generalnie poprawne, ale dodatkowo są czyszczone w celu uniknięcia błędów analitycznych
+
+Dane są przechowywane w bazie PostgreSQL
+
 ## Funkcje
 
 - Pobieranie danych historycznych Tesli (CSV/Data API)
