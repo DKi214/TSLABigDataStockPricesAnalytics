@@ -46,13 +46,9 @@ TSLABigDataStockPricesAnalytics/
 
 ## Uruchomiona wersja demo
 
-Aplikacja jest dostępna pod adresem: [http://130.61.153.123](http://130.61.153.123)
+Aplikacja została uruchomiona na VPS od Oracle Cloud i jest dostępna pod adresem: [http://130.61.153.123](http://130.61.153.123)
 
 Można tam przetestować wszystkie funkcje aplikacji bez konieczności lokalnej instalacji.
-
-## Licencja
-
-MIT
 
 ## Autor
 
