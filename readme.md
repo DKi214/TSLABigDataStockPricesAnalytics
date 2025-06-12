@@ -71,6 +71,19 @@ Aplikacja została uruchomiona na VPS od Oracle Cloud i jest dostępna pod adres
 
 Można tam przetestować wszystkie funkcje aplikacji bez konieczności lokalnej instalacji.
 
+## Uruchamianie lokalne przez Docker
+
+Aby uruchomić projekt lokalnie przy użyciu Dockera:
+
+1. Upewnij się, że masz zainstalowane Docker oraz Docker Compose.
+2. W głównym katalogu projektu uruchom:
+
+```bash
+docker-compose up -d --build
+```
+
+3. Aplikacja frontendowa będzie dostępna na `http://localhost`
+
 ## Autor
 
 [DKi214](https://github.com/DKi214)
