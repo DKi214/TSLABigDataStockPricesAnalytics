@@ -6,7 +6,7 @@ Full-stack aplikacja internetowa do analizy historycznych cen akcji Tesli z wyko
 
 Celem projektu jest zbudowanie pełnej aplikacji webowej umożliwiającej analizę historycznych danych giełdowych spółki Tesla (TSLA)
 
-Dane historyczne (np. Open, High, Low, Close, Volume) są pobierane z pliku CSV lub publicznego API
+Dane historyczne (np. Open, High, Low, Close, Volume) są pobierane z pliku CSV który jest pobierany z publicznego API
 
 Projekt umożliwia wizualną analizę danych w celu:
 
