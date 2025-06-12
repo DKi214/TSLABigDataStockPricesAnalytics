@@ -5,6 +5,9 @@ Full-stack aplikacja internetowa do analizy historycznych cen akcji Tesli z wyko
 ## Funkcje
 
 - Pobieranie danych historycznych Tesli (CSV/Data API)
+- Normalizacja, przygotowanie danych do analizy
+  - Mimo że dane są względnie czyste, zostały dodatkowo oczyszczone z potencjalnych braków lub pustych wartości, aby zapobiec nieoczekiwanym błędom podczas analizy
+  - Zapis przetworzonych danych do bazy danych PostgreSQL
 - Przetwarzanie i analiza:
   - Średnie kroczące (SMA)
   - Zmienność
